@@ -1,0 +1,22 @@
+{
+  "name": "mongodb_operations_projects",
+  "version": "1.0.0",
+  "description": "MongoDB operations project using Atlas sample_mflix dataset",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": ["mongodb", "atlas", "mflix", "nodejs", "database"],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.2",
+    "mongodb": "^6.20.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
